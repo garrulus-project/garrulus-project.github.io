@@ -1,0 +1,58 @@
+---
+layout: article
+titles:
+  # @start locale config
+  de      : &DE       Kontakt
+  en      : &EN       Contact
+  en-GB   : *EN
+  en-US   : *EN
+  en-CA   : *EN
+  en-AU   : *EN
+  zh-Hans : &ZH_HANS  关于
+  zh      : *ZH_HANS
+  zh-CN   : *ZH_HANS
+  zh-SG   : *ZH_HANS
+  zh-Hant : &ZH_HANT  關於
+  zh-TW   : *ZH_HANT
+  zh-HK   : *ZH_HANT
+  ko      : &KO       소개
+  ko-KR   : *KO
+  fr      : &FR       À propos
+  fr-BE   : *FR
+  fr-CA   : *FR
+  fr-CH   : *FR
+  fr-FR   : *FR
+  fr-LU   : *FR
+  # @end locale config
+key: page-about
+---
+
+<div class="container">
+    <div style="text-align:center">
+      <h2>Kontackt Uns</h2>
+      <p>Willkommen!</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="/assets/images/logo/de.png" style="width:100%">
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname">Vorname</label>
+          <input type="text" id="fname" name="firstname" placeholder="Ihr Vorname..">
+          <label for="lname">Nachname</label>
+          <input type="text" id="lname" name="lastname" placeholder="Ihr Nachname..">
+          <label for="country">Land</label>
+          <select id="country" name="country">
+            <option value="australia">Europe</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="subject">Begriff</label>
+          <textarea id="subject" name="subject" placeholder="Schreib etwas.." style="height:170px"></textarea>
+          <input type="submit" value="Einreichen">
+        </form>
+      </div>
+    </div>
+  </div>
+  
