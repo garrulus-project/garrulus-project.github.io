@@ -255,7 +255,7 @@
 </head>
   <body>
     <div class="root" data-is-touch="false">
-      <div class="layout--page js-page-root"><div class="page__main js-page-main page__viewport cell cell--auto">
+      <div class="layout--page js-page-root"><div class="page__main js-page-main page__viewport full-width cell cell--auto">
 
       <div class="page__main-inner"><div class="page__header d-print-none"><header class="header"><div class="main">
       <div class="header__title">
@@ -420,17 +420,20 @@ l0 -33 65 0 65 0 0 153 c0 238 29 1180 46 1530 l7 129 296 -4 c325 -5 360 -11
         <ul><li class="navigation__item"><a href="/">Startseite</a></li><li class="navigation__item"><a href="/about.html">Info</a></li><li class="navigation__item navigation__item--active"><a href="/about_new.html">Team</a></li><li class="navigation__item"><a href="/contact.html">Kontakt</a></li><li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li></ul>
       </nav></div>
   </header>
-</div><div class="page__content"><div class ="main"><div class="grid grid--reverse">
+</div><div class="page__content"><div class="grid grid--reverse">
 
               <div class="col-aside d-print-none js-col-aside"></div>
 
               <div class="col-main cell cell--auto"><!-- start custom main top snippet -->
 
 <!-- end custom main top snippet -->
-<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>Info</h1></header></div><meta itemprop="headline" content="Info"><meta itemprop="author" content="Mnaish Saini"/><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
+<article itemscope itemtype="http://schema.org/WebPage"><header style="display:none;"><h1>Info</h1></header><meta itemprop="headline" content="Info"><meta itemprop="author" content="Mnaish Saini"/><div class="js-article-content"><div class="layout--home"></div>
+<script>/*(function () {
 
-<!-- end custom article top snippet -->
-<div class="article__content" itemprop="articleBody"><h1>About</h1>
+})();*/
+</script>
+<!--  -->
+<!-- <h1>About</h1> -->
 <div class="about-section">
     <h1>Garrulus</h1>
     <p>Ziel von Garrulus ist es, eine schnelle, zuverlässige und kostengünstige Methode zur Wiederaufforstung geschädigter deutscher Waldflächen zu entwickeln. Zu diesem Zweck ist geplant, einen Prototyp für ein unbemanntes Fluggerät (UAV) zu entwickeln und zu bauen, das in der Lage ist, das geschädigte Gelände zu vermessen, das Ausmaß der Schäden genau zu quantifizieren und neues Saatgut an geeigneten Stellen für die Wiederaufforstung auszubringen.</p>
@@ -477,44 +480,13 @@ l0 -33 65 0 65 0 0 153 c0 238 29 1180 46 1530 l7 129 296 -4 c325 -5 360 -11
     </div>
     </div>
 </div>
-</div></div><div class="d-print-none"><footer class="article__footer"><!-- start custom article footer snippet -->
-
-<!-- end custom article footer snippet -->
-</footer>
 </div>
 
-</div>
-
-<script>(function() {
-  var SOURCES = window.TEXT_VARIABLES.sources;
-  window.Lazyload.js(SOURCES.jquery, function() {
-    $(function() {
-      var $this ,$scroll;
-      var $articleContent = $('.js-article-content');
-      var hasSidebar = $('.js-page-root').hasClass('layout--page--sidebar');
-      var scroll = hasSidebar ? '.js-page-main' : 'html, body';
-      $scroll = $(scroll);
-
-      $articleContent.find('.highlight').each(function() {
-        $this = $(this);
-        $this.attr('data-lang', $this.find('code').attr('data-lang'));
-      });
-      $articleContent.find('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]').each(function() {
-        $this = $(this);
-        $this.append($('<a class="anchor d-print-none" aria-hidden="true"></a>').html('<i class="fas fa-anchor"></i>'));
-      });
-      $articleContent.on('click', '.anchor', function() {
-        $scroll.scrollToAnchor('#' + $(this).parent().attr('id'), 400);
-      });
-    });
-  });
-})();
-</script>
 </div><section class="page__comments d-print-none"></section></article><!-- start custom main bottom snippet -->
 
 <!-- end custom main bottom snippet -->
 </div>
-            </div></div></div><div class="page__footer d-print-none">
+            </div></div><div class="page__footer d-print-none">
 <footer class="footer py-4 js-page-footer">
   <div class="main"><div itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mnaish Saini"><meta itemprop="url" content="/"><meta itemprop="description" content="I am a Roboticist."><div class="footer__author-links"><div class="author-links">

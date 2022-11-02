@@ -32,6 +32,11 @@ articles:
   show_excerpt: true
   show_readmore: true
   show_info: true
+full_width: true
+<!-- article_header:
+  type: overlay
+  align: center
+  height: 80vh -->
 ---
 <div class="layout--home">
   {%- include paginator.html -%}
@@ -39,5 +44,7 @@ articles:
 <script>
   {%- include scripts/home.js -%}
 </script>
-
+<!-- {% for lang in site.languages %}
+{{ lang }}
+{% endfor %} -->
 {{ content }}

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: home
 titles:
   en      : &EN       About
   en-GB   : *EN
@@ -16,6 +16,7 @@ titles:
   ko      : &KO       소개
   ko-KR   : *KO
 key: page-about
+
 ---
 
 Just say something about yourself. :+1:
