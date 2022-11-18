@@ -15,12 +15,12 @@ body {
     box-sizing: inherit;
   }
   
-  .column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
+  // .column {
+  //   float: left;
+  //   width: 70%;
+  //   margin-bottom: 16px;
+  //   padding: 0 8px;
+  // }
   
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -64,10 +64,10 @@ body {
     background-color: #555;
   }
   
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 700px) {
     .column {
       width: 100%;
-      display: block;
+      display: flex;
     }
   }
 
@@ -242,6 +242,7 @@ body {
   }     
   
 
+
   
   * {
     box-sizing: border-box;
@@ -273,11 +274,22 @@ body {
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 10px;
+    padding: 1px;
   }
   
   /* Create two columns that float next to eachother */
   .column {
+    display: flex;
+    
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+    padding: 1px;
+  }
+
+  .columnContact {
+    display: flex;
+    
     float: left;
     width: 50%;
     margin-top: 6px;
@@ -293,7 +305,7 @@ body {
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
+    .columnContact, input[type=submit] {
       width: 100%;
       margin-top: 0;
     }

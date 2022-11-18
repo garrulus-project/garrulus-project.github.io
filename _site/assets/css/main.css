@@ -2636,8 +2636,6 @@ html { box-sizing: border-box; }
 
 *, *:before, *:after { box-sizing: inherit; }
 
-.column { float: left; width: 33.3%; margin-bottom: 16px; padding: 0 8px; }
-
 .card { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); margin: 8px; }
 
 .about-section { padding: 50px; text-align: center; background-color: #474e5d; color: white; }
@@ -2652,7 +2650,7 @@ html { box-sizing: border-box; }
 
 .button:hover, .swiper__button:hover { background-color: #555; }
 
-@media screen and (max-width: 650px) { .column { width: 100%; display: block; } }
+@media screen and (max-width: 700px) { .column { width: 100%; display: flex; } }
 
 @font-face { font-weight: 400; font-style: normal; font-family: "Source Sans Pro"; src: local(""), url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.woff2") format("woff2"), url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.woff") format("woff"), url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.ttf") format("truetype"), url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.svg#SourceSansPro") format("svg"); font-display: swap; }
 
@@ -2694,16 +2692,18 @@ input[type=submit] { background-color: #04AA6D; color: white; padding: 12px 20px
 input[type=submit]:hover { background-color: #45a049; }
 
 /* Style the container/contact section */
-.container { border-radius: 5px; background-color: #f2f2f2; padding: 10px; }
+.container { border-radius: 5px; background-color: #f2f2f2; padding: 1px; }
 
 /* Create two columns that float next to eachother */
-.column { float: left; width: 50%; margin-top: 6px; padding: 20px; }
+.column { display: flex; float: left; width: 30%; margin-top: 6px; padding: 1px; }
+
+.columnContact { display: flex; float: left; width: 50%; margin-top: 6px; padding: 20px; }
 
 /* Clear floats after the columns */
 .row:after { content: ""; display: table; clear: both; }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) { .column, input[type=submit] { width: 100%; margin-top: 0; } }
+@media screen and (max-width: 600px) { .columnContact, input[type=submit] { width: 100%; margin-top: 0; } }
 
 @font-face { font-weight: 400; font-style: normal; font-family: "Source Sans Pro"; src: local(""), url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.woff2") format("woff2"), url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.woff") format("woff"), url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.ttf") format("truetype"), url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.svg#SourceSansPro") format("svg"); font-display: swap; }
 
