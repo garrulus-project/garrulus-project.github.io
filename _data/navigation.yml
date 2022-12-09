@@ -105,7 +105,7 @@ header:
       fr-LU   : *FR
       tr      : &TR       Hakkında
       # @end locale config
-    url: /about_new.html
+    url: /team.html
   - titles:
       # @start locale config
       de      : &DE       Publikation

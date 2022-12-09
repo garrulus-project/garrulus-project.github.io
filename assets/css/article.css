@@ -1,0 +1,141 @@
+@font-face { 
+    font-weight:400;
+    font-style:normal;
+    font-family:"Source Sans Pro";
+    src:local(""),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.woff2") format("woff2"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.woff") format("woff"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.ttf") format("truetype"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.svg#SourceSansPro") format("svg");
+    font-display:swap;
+  } 
+  @font-face { 
+    font-weight:600;
+    font-style:normal;
+    font-family:"Source Sans Pro";
+    src:local(""),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-600.woff2") format("woff2"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-600.woff") format("woff"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-600.ttf") format("truetype"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-600.svg#SourceSansPro") format("svg");
+    font-display:swap;
+  } 
+  @media all{ 
+    * { 
+      box-sizing: inherit;
+    } 
+  }     
+  
+  @media (min-width: 1360px) and (max-width: 1899px){ 
+    .gr-container { 
+      max-width: 90%; 
+      padding-left: 0; 
+      padding-right: 0; 
+      margin-left: auto; 
+      margin-right: auto; 
+      box-sizing: border-box;
+    } 
+  }     
+  
+  @media all{ 
+    .hbrs-content { 
+      flex: 1 0 auto;
+    } 
+  
+    .hbrs-wrapper { 
+      display: flex; 
+      flex-direction: column; 
+      min-height: 100vh;
+    } 
+  
+    body { 
+      margin:  0;
+      overflow-x: hidden; 
+      color: #1e232a; 
+      font-size: 1rem; 
+      font-family: "Source Sans Pro",sans-serif; 
+      line-height: 1.5rem;
+    } 
+  }     
+  
+  @media (min-width: 1360px){ 
+    body { 
+      font-size: 1.25rem; 
+      line-height: 2rem;
+    } 
+  }     
+  
+  @media all{ 
+    html { 
+      line-height:  1.15; 
+      -webkit-text-size-adjust:  100%;
+      box-sizing: border-box; 
+      font-size: 16px;
+    } 
+  
+    .break-out { 
+      position: relative; 
+      left: calc(-1*(100vw - 100%)/2); 
+      width: 100vw;
+    } 
+  }     
+  
+  @media (min-width: 1360px) and (max-width: 1899px){ 
+    .paragraph-block { 
+      padding: 4rem 0;
+    } 
+  
+    .paragraph-simple-text { 
+      font-size: 1.75rem; 
+      line-height: 2.625rem;
+    } 
+  }     
+  
+  @media all{ 
+    *,:after,:before { 
+      box-sizing: inherit;
+    } 
+  }     
+  
+  @media (min-width: 1360px) and (max-width: 1899px){ 
+    .gr-row { 
+      display: flex; 
+      flex-direction: row; 
+      flex-wrap: wrap; 
+      width: auto; 
+      box-sizing: border-box; 
+      margin-left: -12px; 
+      margin-right: -12px;
+    } 
+  
+    .gr-row--align-center { 
+      justify-content: center;
+    } 
+  
+    .gr-10 { 
+      padding-left:  12px; 
+      padding-right:  12px; 
+      box-sizing:  border-box;
+      width: 83.3333333333%;
+    } 
+  }     
+  
+  @media all{ 
+    .body { 
+      -webkit-hyphens: auto; 
+      -ms-hyphens: auto; 
+      hyphens: auto;
+    } 
+  }     
+  
+  @media (min-width: 1360px) and (max-width: 1899px){ 
+    .text-long { 
+      font-size: 1.75rem; 
+      line-height: 2.625rem;
+    } 
+  }     
+  
+  @media all{ 
+    p { 
+      margin: 0 0 1rem 0;
+    } 
+  
+    p:last-child { 
+      margin-bottom: 0;
+    } 
+  }     
+  
+  
+  
