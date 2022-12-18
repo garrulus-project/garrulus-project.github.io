@@ -8,7 +8,7 @@ article {
 }  
 
  .fhg-grid { 
-    font-size: 0;
+    /* font-size: 0; */
 }  
 
 .fhg-content-article { 
@@ -33,9 +33,9 @@ article {
 .fhg-wrapper { 
     font-size: 0; 
     max-width: 1440px; 
-    margin: 0 auto; 
-    padding-left: 8rem; 
-    padding-right: 8rem; 
+    /* margin: 0 auto;  */
+    /* padding-left: 8rem;  */
+    /* padding-right: 8rem;  */
     overflow: hidden; 
     position: relative;
 } 
@@ -47,10 +47,10 @@ article {
 }     
 
 body { 
-    margin:   0; 
+    /* margin:   0;  */
     padding:  0;
     /* font-size: 1.3rem;  */
-    line-height: 1.8rem; 
+    /* line-height: 1.8rem;  */
     /* font-family: FrutigerLTW02,"Helvetica Neue",Helvetica,Arial,sans-serif;  */
     /* font-weight: 200;  */
     color: #555; 
@@ -61,7 +61,7 @@ html {
     font-family:   sans-serif; 
     -ms-text-size-adjust:   100%; 
     -webkit-text-size-adjust:   100%;
-    margin:  0; 
+    /* margin:  0;  */
     padding:  0; 
     font-size: inherit;
     overflow-y: scroll;
@@ -154,8 +154,8 @@ a[target="_blank"]:after,a.external:after {
     display: inline-block; 
     /* font-size: .95em;  */
     text-decoration: none; 
-    margin-left: .35rem; 
-    margin-right: .35rem;
+    /* margin-left: .35rem;  */
+    /* margin-right: .35rem; */
 } 
 
 a:active,a:hover { 

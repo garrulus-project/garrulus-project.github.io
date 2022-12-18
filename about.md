@@ -47,7 +47,7 @@ key: page-about
         <div class="picture-item snipcss0-2-3-4">
           <div class="picture-item__preview picture-item--xl snipcss0-3-4-5">
             <picture class="responsive-image image snipcss0-4-5-6">
-              <source media="(min-width: 1900px)" srcset="/assets/images/logo/unidegree.png" class="snipcss0-5-6-7">
+              <!-- <source media="(min-width: 1900px)" srcset="/assets/images/logo/unidegree.png" class="snipcss0-5-6-7"> -->
               <source media="(min-width: 1360px) and (max-width: 1899px)" srcset="https://www.h-brs.de/sites/default/files/styles/hresize312x175_32/public/teaser/logogarrulus-web.png.webp?itok=NGqhuqEY&amp;t=0129" class="snipcss0-5-6-8">
               <source media="(min-width: 700px) and (max-width: 1359px)" srcset="https://www.h-brs.de/sites/default/files/styles/hresize312x175_32/public/teaser/logogarrulus-web.png.webp?itok=NGqhuqEY&amp;t=0129" class="snipcss0-5-6-9">
               <source media="(max-width: 699px)" srcset="https://www.h-brs.de/sites/default/files/styles/hresize312x175_32/public/teaser/logogarrulus-web.png.webp?itok=NGqhuqEY&amp;t=0129" class="snipcss0-5-6-10">
@@ -104,7 +104,7 @@ key: page-about
             Zeitraum
           </p>
           <p class="infobox-research-facts__daterange">
-            01.07.2021 to 31.12.2022
+            01.07.2021 to 30.06.2023
           </p>
         </div>
       </div>
