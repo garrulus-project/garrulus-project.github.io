@@ -33,6 +33,7 @@ key: page-about
   <link rel="stylesheet" href="./info.css">
 </head>
 
+<br>
 
 <div class="infobox-research-facts paragraph-block break-out snipcss-wUQnD" id="infobox-research-project-facts">
   <div class="gr-container ">
@@ -69,16 +70,16 @@ key: page-about
             <span class="link--container">
               <a class="link link--internal" href="/assets/images/logo/unidegree.png" target="_self">
                 Fachbereich Informatik
-                <i class="icon-hbrs icon-hbrs-- icon-hbrs-internal">
+                <!-- <i class="icon-hbrs icon-hbrs-- icon-hbrs-internal"> -->
                 <!-- <img src="/assets/images/logo/unidegree.png" class="icon-hbrs icon-hbrs-- icon-hbrs-internal"> -->
-                </i>
+                <!-- </i> -->
               </a>
             </span>
-            <span class="link--container">
+            <span>
               <a class="link link--internal" href="/de/tree" target="_self">
                 Institut für Technik, Ressourcenschonung und Energieeffizienz (TREE)
-                <i class="icon-hbrs icon-hbrs-- icon-hbrs-internal">
-                </i>
+                <!-- <i class="icon-hbrs icon-hbrs-- icon-hbrs-internal"> -->
+                <!-- </i> -->
               </a>
             </span>
           </div>

@@ -159,9 +159,12 @@
 
   :root { 
     --c-accent: #005d92; 
-    --c-accent-highlight: #3ac4ff; 
-    --c-accent-hover: #6ed3ff; 
-    --c-accent-soft: #d8f3ff; 
+    /* --c-accent-highlight: #3ac4ff; 
+    --c-accent-hover: #6ed3ff; */
+    --c-accent-highlight: #F2F2F2; 
+    --c-accent-hover: #F2F2F2; 
+    /* --c-accent-soft: #d8f3ff; */
+    --c-accent-soft: #F2F2F2; 
   } 
 
   *,:after,:before { 
