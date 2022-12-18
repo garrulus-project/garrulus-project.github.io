@@ -478,7 +478,8 @@
   }     
   
   #content_ymlqixzi6 .is-content  { 
-      background-color:  #44c0c4; 
+      /* background-color:  #44c0c4; */
+      background-color:  #E96B75; 
       border-radius:  0.1111111111111111rem;
       box-shadow: 0.05555555555555555rem 0.05555555555555555rem 0.05555555555555555rem 0rem rgba(0,0,0,0.2);
   } 
@@ -491,43 +492,49 @@
   
   #content_ymlqixzi6 .is-content:hover  { 
       color:  #ffffff !important; 
-      background-color:  #44c0c4 !important;
+      /* background-color:  #44c0c4 !important; */
+      background-color:  #E96B75;
       box-shadow: 0.05555555555555555rem 0.05555555555555555rem 0.05555555555555555rem 0rem rgba(0,0,0,0);
   } 
   
   #content_yp86w172z .is-content  { 
-      background-color:  #44c0c4; 
+      /* background-color:  #44c0c4;  */
+      background-color:  #E96B75;
       border-radius:  0.1111111111111111rem;
       box-shadow: 0.05555555555555555rem 0.05555555555555555rem 0.05555555555555555rem 0rem rgba(0,0,0,0.2);
   } 
   
   #content_yp86w172z .is-content:hover  { 
       color:  #ffffff !important; 
-      background-color:  #44c0c4 !important;
+      background-color:  #E96B75 !important;
       box-shadow: 0.05555555555555555rem 0.05555555555555555rem 0.05555555555555555rem 0rem rgba(0,0,0,0);
   } 
   
   #content_moldvzrc5 .is-content  { 
-      background-color:  #44c0c4; 
+      /* background-color:  #44c0c4; */
+      background-color:  #E96B75; 
       border-radius:  0.1111111111111111rem;
       box-shadow: 0.05555555555555555rem 0.05555555555555555rem 0.05555555555555555rem 0rem rgba(0,0,0,0.2);
   } 
   
   #content_moldvzrc5 .is-content:hover  { 
       color:  #ffffff !important; 
-      background-color:  #44c0c4 !important;
+      /* background-color:  #44c0c4 !important; */
+      background-color:  #E96B75;
       box-shadow: 0.05555555555555555rem 0.05555555555555555rem 0.05555555555555555rem 0rem rgba(0,0,0,0);
   } 
   
   #content_z4mklds46 .is-content  { 
-      background-color:  #44c0c4; 
+      background-color:  #E96B75;
+      /* background-color:  #44c0c4;  */
       border-radius:  0.1111111111111111rem;
       box-shadow: 0.05555555555555555rem 0.05555555555555555rem 0.05555555555555555rem 0rem rgba(0,0,0,0.2);
   } 
   
   #content_z4mklds46 .is-content:hover  { 
       color:  #ffffff !important; 
-      background-color:  #44c0c4 !important;
+      /* background-color:  #44c0c4 !important; */
+      background-color:  #E96B75;
       box-shadow: 0.05555555555555555rem 0.05555555555555555rem 0.05555555555555555rem 0rem rgba(0,0,0,0);
   } 
   
@@ -1549,7 +1556,7 @@
   }     
   
   #content_387n9u0ez .is-content  { 
-  : 
+  
       opacity: 0; 
       border-color: #000000; 
       border-width: 0; 

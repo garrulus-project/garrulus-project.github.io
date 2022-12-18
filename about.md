@@ -68,7 +68,7 @@ key: page-about
           </p>
           <div class="infobox-research-facts__links">
             <span class="link--container">
-              <a class="link link--internal" href="/assets/images/logo/unidegree.png" target="_self">
+              <a class="link link--internal" href="https://www.h-brs.de/de/inf" target="_self">
                 Fachbereich Informatik
                 <!-- <i class="icon-hbrs icon-hbrs-- icon-hbrs-internal"> -->
                 <!-- <img src="/assets/images/logo/unidegree.png" class="icon-hbrs icon-hbrs-- icon-hbrs-internal"> -->
@@ -76,7 +76,7 @@ key: page-about
               </a>
             </span>
             <span>
-              <a class="link link--internal" href="/de/tree" target="_self">
+              <a class="link link--internal" href="https://www.h-brs.de/de/tree" target="_self">
                 Institut für Technik, Ressourcenschonung und Energieeffizienz (TREE)
                 <!-- <i class="icon-hbrs icon-hbrs-- icon-hbrs-internal"> -->
                 <!-- </i> -->
