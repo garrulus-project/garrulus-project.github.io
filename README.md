@@ -1,4 +1,18 @@
-# [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
+## Getting Started with Garrulus Page
+
+In order to work with the website you need a local development environment. This website is based on Jekyll which is a Ruby Gem. Follow the [Install Instrucutions](https://jekyllrb.com/docs/installation/windows/) to install jekyll. Alternatively you can use docker. Check the Theme documentation for more details.
+
+After Jekyll is intstalled, run bundler to install the dependencies:
+
+`bundle install --path vendor/bundle`
+
+Run `bundle exec jekyll serve` to start the development server, then you can visit http://localhost:4000/ to preview your site.
+
+In my case i had to run `bundle update` to make it work. I ran into an issue about liquid tainted-check method not available. It needs to be at least liquid 4.0.4 to work.
+
+
+
+# Documentation for [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
 
 [![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)
 [![Gem Version](https://img.shields.io/gem/v/jekyll-text-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/releases)
