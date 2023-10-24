@@ -110,6 +110,8 @@ GEM
       unicode-display_width (>= 1.1.1, < 3)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2023.3)
+      tzinfo (>= 1.0.0)
     unicode-display_width (2.5.0)
     webrick (1.8.1)
 
@@ -121,6 +123,7 @@ DEPENDENCIES
   bundler
   jekyll-text-theme!
   rake (~> 10.0)
+  tzinfo-data
 
 BUNDLED WITH
    2.3.22
