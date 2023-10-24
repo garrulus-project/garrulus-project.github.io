@@ -18,27 +18,27 @@
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : https://garrulus-project.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Garrulus
+title   : Garrulus Research Project
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  Garrulus - Wiederaufforstung und Monitoring geschädigter Waldflächen durch unbemannte Luftfahrtzeuge
 
 
 ## => Language and Timezone
 ##############################
 lang: "de" # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+timezone: Europe/Berlin # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
-  type      : # "person" (default), "organization"
-  name      : Mnaish Saini
-  url       : 
+  type      : organization # "person" (default), "organization"
+  name      : Garrulus Research Team
+  url       : https://www.h-brs.de/de/garrulus
   avatar    : # path or url of avatar image (square)
-  bio       : I am a Roboticist.
+  bio       : An interdisciplinary research Team at Hochschule Bonn-Rhein-Sieg
   email     : garrulus@h-brs.de
   # facebook  : https://www.facebook.com/user_name # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   # twitter   : https://twitter.com/user_name # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -49,13 +49,13 @@ author:
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : groups/12735785/ # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : brsu-uavlab # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  github    : garrulus-project # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : Garrulus
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
+repository: garrulus-project/garrulus-project.github.io
 repository_tree: master
 
 
@@ -200,6 +200,7 @@ exclude:
   - /screenshots
   - /test
   - /vendor
+  - /docker
 
 defaults:
   - scope:
