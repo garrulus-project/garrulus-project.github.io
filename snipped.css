@@ -138,25 +138,7 @@ a {
     color: #1f82c0;
 } 
 
-a[target="_blank"]:after,a.external:after { 
-    font-family: "icon-font"; 
-    font-weight: normal; 
-    font-style: normal; 
-    letter-spacing: 0; 
-    line-height: 1; 
-    speak: none; 
-    text-transform: none; 
-    text-rendering: optimizeLegibility; 
-    vertical-align: baseline; 
-    -webkit-font-smoothing: antialiased; 
-    -moz-osx-font-smoothing: grayscale; 
-    content: '\f115'; 
-    display: inline-block; 
-    /* font-size: .95em;  */
-    text-decoration: none; 
-    /* margin-left: .35rem;  */
-    /* margin-right: .35rem; */
-} 
+
 
 a:active,a:hover { 
     outline: 0;
