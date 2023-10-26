@@ -2,247 +2,247 @@
 
 /* end custom scss snippet */
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-  }
+// body {
+//     font-family: Arial, Helvetica, sans-serif;
+//     margin: 0;
+//   }
   
-  html {
-    box-sizing: border-box;
-  }
+//   html {
+//     box-sizing: border-box;
+//   }
   
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+//   *, *:before, *:after {
+//     box-sizing: inherit;
+//   }
   
-  .column {
-    float: left;
-    width: 30%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
+//   .column {
+//     float: left;
+//     width: 30%;
+//     margin-bottom: 16px;
+//     padding: 0 8px;
+//   }
   
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 50px;
-  }
+//   // .card {
+//   //   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+//   //   margin: 50px;
+//   // }
   
-  .about-section {
-    padding: 50px;
-    text-align: center;
-    // background-color: #474e5d;
-    background-color: #f56e75d0;
-    color: white;
-  }
+//   .about-section {
+//     padding: 50px;
+//     text-align: center;
+//     // background-color: #474e5d;
+//     background-color: #f56e75d0;
+//     color: white;
+//   }
   
-  .container {
-    padding: 0 16px;
+//   .container {
+//     padding: 0 16px;
     
-  }
+//   }
   
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
+//   .container::after, .row::after {
+//     content: "";
+//     clear: both;
+//     display: table;
     
-  }
+//   }
   
-  .title {
-    color: grey;
-  }
+//   .title {
+//     color: grey;
+//   }
   
-  .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-  }
+//   .button {
+//     border: none;
+//     outline: 0;
+//     display: inline-block;
+//     padding: 8px;
+//     color: white;
+//     background-color: #000;
+//     text-align: center;
+//     cursor: pointer;
+//     width: 100%;
+//   }
   
-  .button:hover {
-    background-color: #555;
-  }
+//   .button:hover {
+//     background-color: #555;
+//   }
   
-  @media screen and (max-width: 700px) {
-    .column {
-      width: 100%;
-      display: flex;
-    }
-  }
+//   @media screen and (max-width: 700px) {
+//     .column {
+//       width: 100%;
+//       display: flex;
+//     }
+//   }
 
-  @font-face { 
-    font-weight:400;
-    font-style:normal;
-    font-family:"Source Sans Pro";
-    src:local(""),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.woff2") format("woff2"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.woff") format("woff"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.ttf") format("truetype"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.svg#SourceSansPro") format("svg");
-    font-display:swap;
-  } 
-  @font-face { 
-    font-weight:600;
-    font-style:normal;
-    font-family:"Source Sans Pro";
-    src:local(""),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-600.woff2") format("woff2"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-600.woff") format("woff"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-600.ttf") format("truetype"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-600.svg#SourceSansPro") format("svg");
-    font-display:swap;
-  } 
-  @media all{ 
-    * { 
-      box-sizing: inherit;
-    } 
-  }     
+//   @font-face { 
+//     font-weight:400;
+//     font-style:normal;
+//     font-family:"Source Sans Pro";
+//     src:local(""),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.woff2") format("woff2"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.woff") format("woff"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.ttf") format("truetype"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-regular.svg#SourceSansPro") format("svg");
+//     font-display:swap;
+//   } 
+//   @font-face { 
+//     font-weight:600;
+//     font-style:normal;
+//     font-family:"Source Sans Pro";
+//     src:local(""),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-600.woff2") format("woff2"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-600.woff") format("woff"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-600.ttf") format("truetype"),url("https://www.h-brs.de/themes/custom/hbrs/fonts/source-sans-pro-600.svg#SourceSansPro") format("svg");
+//     font-display:swap;
+//   } 
+//   @media all{ 
+//     * { 
+//       box-sizing: inherit;
+//     } 
+//   }     
   
-  @media (min-width: 1360px) and (max-width: 1899px){ 
-    .gr-container { 
-      max-width: 90%; 
-      padding-left: 0; 
-      padding-right: 0; 
-      margin-left: auto; 
-      margin-right: auto; 
-      box-sizing: border-box;
-    } 
-  }     
+//   @media (min-width: 1360px) and (max-width: 1899px){ 
+//     .gr-container { 
+//       max-width: 90%; 
+//       padding-left: 0; 
+//       padding-right: 0; 
+//       margin-left: auto; 
+//       margin-right: auto; 
+//       box-sizing: border-box;
+//     } 
+//   }     
   
-  @media all{ 
-    .break-out { 
-      position: relative; 
-      left: calc(-1*(100vw - 100%)/2); 
-      width: 100vw;
-    } 
-  }     
+//   @media all{ 
+//     .break-out { 
+//       position: relative; 
+//       left: calc(-1*(100vw - 100%)/2); 
+//       width: 100vw;
+//     } 
+//   }     
   
-  @media (min-width: 1360px) and (max-width: 1899px){ 
-    .paragraph-block { 
-      padding: 4rem 0;
-    } 
+//   @media (min-width: 1360px) and (max-width: 1899px){ 
+//     .paragraph-block { 
+//       padding: 4rem 0;
+//     } 
   
-    .paragraph-simple-text { 
-      font-size: 1.75rem; 
-      line-height: 2.625rem;
-    } 
-  }     
+//     .paragraph-simple-text { 
+//       font-size: 1.75rem; 
+//       line-height: 2.625rem;
+//     } 
+//   }     
   
-  @media all{ 
-    .hbrs-content { 
-      flex: 1 0 auto;
-    } 
+//   @media all{ 
+//     .hbrs-content { 
+//       flex: 1 0 auto;
+//     } 
   
-    .hbrs-wrapper { 
-      display: flex; 
-      flex-direction: column; 
-      min-height: 100vh;
-    } 
+//     .hbrs-wrapper { 
+//       display: flex; 
+//       flex-direction: column; 
+//       min-height: 100vh;
+//     } 
   
-    body { 
-      margin:  0;
-      overflow-x: hidden; 
-      color: #1e232a; 
-      font-size: 1rem; 
-      font-family: "Source Sans Pro",sans-serif; 
-      line-height: 1.5rem;
-    } 
-  }     
+//     body { 
+//       margin:  0;
+//       overflow-x: hidden; 
+//       color: #1e232a; 
+//       font-size: 1rem; 
+//       font-family: "Source Sans Pro",sans-serif; 
+//       line-height: 1.5rem;
+//     } 
+//   }     
   
-  @media (min-width: 1360px){ 
-    body { 
-      font-size: 1.25rem; 
-      line-height: 2rem;
-    } 
-  }     
+//   @media (min-width: 1360px){ 
+//     body { 
+//       font-size: 1.25rem; 
+//       line-height: 2rem;
+//     } 
+//   }     
   
-  @media all{ 
-    html { 
-      line-height:  1.15; 
-      -webkit-text-size-adjust:  100%;
-      box-sizing: border-box; 
-      font-size: 16px;
-    } 
+//   @media all{ 
+//     html { 
+//       line-height:  1.15; 
+//       -webkit-text-size-adjust:  100%;
+//       box-sizing: border-box; 
+//       font-size: 16px;
+//     } 
   
-    :root { 
-      --c-accent: #005d92; 
-      --c-accent-hover: #6ed3ff; 
-    } 
-  }     
+//     :root { 
+//       --c-accent: #005d92; 
+//       --c-accent-hover: #6ed3ff; 
+//     } 
+//   }     
   
-  @media (min-width: 1360px) and (max-width: 1899px){ 
-    .gr-row { 
-      display: flex; 
-      flex-direction: row; 
-      flex-wrap: wrap; 
-      width: auto; 
-      box-sizing: border-box; 
-      margin-left: -12px; 
-      margin-right: -12px;
-    } 
+//   @media (min-width: 1360px) and (max-width: 1899px){ 
+//     .gr-row { 
+//       display: flex; 
+//       flex-direction: row; 
+//       flex-wrap: wrap; 
+//       width: auto; 
+//       box-sizing: border-box; 
+//       margin-left: -12px; 
+//       margin-right: -12px;
+//     } 
   
-    .gr-row--align-center { 
-      justify-content: center;
-    } 
-  }     
+//     .gr-row--align-center { 
+//       justify-content: center;
+//     } 
+//   }     
   
-  @media all{ 
-    *,:after,:before { 
-      box-sizing: inherit;
-    } 
-  }     
+//   @media all{ 
+//     *,:after,:before { 
+//       box-sizing: inherit;
+//     } 
+//   }     
   
-  @media (min-width: 1360px) and (max-width: 1899px){ 
-    .gr-10 { 
-      padding-left:  12px; 
-      padding-right:  12px; 
-      box-sizing:  border-box;
-      width: 83.3333333333%;
-    } 
-  }     
+//   @media (min-width: 1360px) and (max-width: 1899px){ 
+//     .gr-10 { 
+//       padding-left:  12px; 
+//       padding-right:  12px; 
+//       box-sizing:  border-box;
+//       width: 83.3333333333%;
+//     } 
+//   }     
   
-  @media all{ 
-    .body { 
-      -webkit-hyphens: auto; 
-      -ms-hyphens: auto; 
-      hyphens: auto;
-    } 
-  }     
+//   @media all{ 
+//     .body { 
+//       -webkit-hyphens: auto; 
+//       -ms-hyphens: auto; 
+//       hyphens: auto;
+//     } 
+//   }     
   
-  @media (min-width: 1360px) and (max-width: 1899px){ 
-    .text-long { 
-      font-size: 1.75rem; 
-      line-height: 2.625rem;
-    } 
-  }     
+//   @media (min-width: 1360px) and (max-width: 1899px){ 
+//     .text-long { 
+//       font-size: 1.75rem; 
+//       line-height: 2.625rem;
+//     } 
+//   }     
   
-  @media all{ 
-    p { 
-      margin: 0 0 1rem 0;
-    } 
+//   @media all{ 
+//     p { 
+//       margin: 0 0 1rem 0;
+//     } 
   
-    p:last-child { 
-      margin-bottom: 0;
-    } 
+//     p:last-child { 
+//       margin-bottom: 0;
+//     } 
   
-    strong { 
-      font-weight: bolder;
-    } 
+//     strong { 
+//       font-weight: bolder;
+//     } 
   
-    a { 
-      background-color:  transparent;
-      transition: all .3s ease-in-out; 
-      color: var(--c-accent); 
-      font-weight: 600; 
-      text-decoration: underline; 
-      word-break: break-word; 
-      cursor: pointer;
-    } 
+//     a { 
+//       background-color:  transparent;
+//       transition: all .3s ease-in-out; 
+//       color: var(--c-accent); 
+//       font-weight: 600; 
+//       text-decoration: underline; 
+//       word-break: break-word; 
+//       cursor: pointer;
+//     } 
   
-    .text-long a ,a  { 
-      color: #005d92;
-    } 
+//     .text-long a ,a  { 
+//       color: #005d92;
+//     } 
   
-    a:hover { 
-      color: var(--c-accent-hover);
-    } 
-  }     
+//     a:hover { 
+//       color: var(--c-accent-hover);
+//     } 
+//   }     
   
 
 

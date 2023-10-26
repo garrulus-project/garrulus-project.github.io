@@ -55,8 +55,8 @@ header:
 
   - titles:
       # @start locale config
-      de      : &DE       Info
-      en      : &EN       About
+      de      : &DE       Über das Projekt
+      en      : &EN       About the Project
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -135,8 +135,8 @@ header:
     url: /team.html
   - titles:
       # @start locale config
-      de      : &DE       Publikation
-      en      : &EN       Publication
+      de      : &DE       Publikationen
+      en      : &EN       Publications
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN

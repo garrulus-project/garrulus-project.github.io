@@ -50,7 +50,7 @@ author:
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : groups/12735785/ # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
   github    : garrulus-project # "user_name" the last part of your profile url, e.g. https://github.com/user_name
-  npm       : Garrulus
+  #npm       : Garrulus
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
