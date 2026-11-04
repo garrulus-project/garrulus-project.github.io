@@ -8,7 +8,7 @@ __Vor 15 Jahren tobte mit dem Orkan Kyrill in Europa einer der verheerendsten St
 
 Die Lage ist ernst: Der Wald stirbt momentan schneller, als er wieder aufgeforstet werden kann. Ein Forscherteam aus Informatikern der Hochschule Bonn-Rhein-Sieg (H-BRS) setzt hier an und untersucht, ob speziell angefertigte Drohnen einen Beitrag zur Kartierung der Schäden und zur Wiederaufforstung leisten können.
 
-![garrulus_projekt_pressemitteilung_01_2022_foto_johenneken.jpg (DE)](assets\images\garrulus_projekt_pressemitteilung_01_2022_foto_johenneken.jpg.jpeg)
+![garrulus_projekt_pressemitteilung_01_2022_foto_johenneken.jpg (DE)](/assets\images\garrulus_projekt_pressemitteilung_01_2022_foto_johenneken.jpg.jpeg)
 Gerade spazierte man noch durch einen dichten Fichtenwald, doch hinter einer Wegbiegung bietet sich ein Bild des Grauens: Auf einer riesigen Fläche steht kein einziger Baum mehr, der Boden ist übersät mit Totholz und den Nadeln der einst so stolzen Giganten. So wie hier, östlich der Stadt Arnsberg im Hochsauerland, sieht es an vielen Orten aus. Das Bundesministerium für Ernährung und Landwirtschaft (BMEL) schätzt, dass in Deutschland Ende des Jahres 2020 rund 171 Millionen Kubikmeter an Schadholz existierten – Tendenz steigend. Bisherige Maßnahmen der Försterinnen und Förster zielen vor allem darauf, die Ausbreitung des Borkenkäfers zu stoppen. Dazu fällen sie betroffene Baumabschnitte oder locken die Schädlinge mit Pheromonfallen an. Die Aufforstung bereits zerstörter Waldgebiete ist jedoch sehr teuer und nur durch erheblichen Zeit- und Personalaufwand realisierbar.
 
 
